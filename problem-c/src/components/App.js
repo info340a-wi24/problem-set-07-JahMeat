@@ -19,7 +19,7 @@ function App(props) {
     } else if (!isRunnerUp) {
       return game.winner == teamName;
     } else {
-      return game.winner == teamName && game.runner_up; 
+      return game.winner == teamName || game.runner_up == teamName; 
     }
   })
   //get sorted list of unique teamNames. reduce array of objects into array of strings, 

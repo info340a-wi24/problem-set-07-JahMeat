@@ -37,7 +37,7 @@ export default function TeamSelectForm(props) {
       <div className="col-auto">
         <div className="form-check">
           <input id="runnerupCheckbox" type="checkbox" className="form-check-input" value="" 
-            check={isIncluded} onChange={changeCheckbox}
+            checked={isIncluded} onChange={changeCheckbox}
           />
           <label htmlFor="runnerupCheckbox" className="form-check-label">Include runner-up</label>
         </div>

@@ -42,28 +42,28 @@ export default function GameDataTable(props) {
             <th>
               Year
               <SortButton name="year" onClick={handleClick} 
-                active={sortByCriteria === "year" ? true : false}
+                active={sortByCriteria === "year"}
                 ascending={sortByCriteria === "year" && isAscending}
               />
             </th>
             <th className="text-end">
               Winner
               <SortButton name="winner" onClick={handleClick} 
-                active={sortByCriteria === "winner" ? true : false} 
+                active={sortByCriteria === "winner"} 
                 ascending={sortByCriteria === "winner" && isAscending}
               />
             </th>
             <th className="text-center">
               Score
               <SortButton name="score" onClick={handleClick} 
-                active={sortByCriteria === "score" ? true : false} 
+                active={sortByCriteria === "score"} 
                 ascending={sortByCriteria === "score" && isAscending}
               />
             </th>
             <th>
               Runner-Up
               <SortButton name="runner_up" onClick={handleClick} 
-                active={sortByCriteria === "runner_up" ? true : false} 
+                active={sortByCriteria === "runner_up"} 
                 ascending={sortByCriteria === "runner_up" && isAscending}
               />
             </th>
