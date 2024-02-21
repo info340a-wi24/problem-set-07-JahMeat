@@ -5,7 +5,7 @@ import _ from 'lodash'; //import external library!
 export default function GameDataTable(props) {
 
   //Your state and event work goes here
-
+  
 
   //Map the `props.data` value into an array of `<GameDataRow>` elements here
 
